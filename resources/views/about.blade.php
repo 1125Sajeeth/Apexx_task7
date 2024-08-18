@@ -4,6 +4,8 @@
 
 
 <h6 class="demoText__heading">about</h6>
+
+
 @endsection
 @section('styles')
 <link rel="stylesheet" href="{{ asset('css/about.css') }}">
