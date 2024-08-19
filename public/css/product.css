@@ -2,17 +2,25 @@
     background-image: url('/img/background/bg-9.png');
     background-size: cover;
     background-position: center;
-    background-color: rgba(0, 0, 0, 0.7); 
-    background-blend-mode: darken;
+    position: relative;
     
 } 
 
+.bg-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
 
 @media (max-width: 767px) {
-    h2, h1 span {
-      border-bottom: none !important;
-      border-top: none !important;
-    }
+    .no-border-small {
+      border: none !important;
+  }
   }
   
 /* Card */

@@ -8,10 +8,10 @@
     <div class="container m-5 position-relative justify-content-center text-center align-items-center z-2">
         <div class="row justify-content-center">
             <div class="col-12 col-md-8 text-center justify-content-center">
-                <h1 class="display-1 text-secondary m-0">DISCOVER</h2>
-                    <h2 class="display-6  text-white fw-bold mb-0" style="display: inline-block; border-bottom: solid 1px rgba(255,255,255,.5); border-top: solid 1px rgba(255,255,255,.5);">
-                        OUR PRODUCT
-                    </h2>
+                <h1 class="display-1 fade-in-up text-secondary m-0">DISCOVER</h2>
+                <h2 class="fade-in-up display-6 text-white fw-bold mb-0 py-0 mt-2 border-top border-bottom border-white-50 d-inline-block no-border-small">
+                    OUR PRODUCT
+                </h2>
             </div>
         </div>
     </div>
@@ -23,7 +23,7 @@
 <!-- ALL PRODUCT -->
 <div class="bg-white">
     <div class="container mt-5 text-center">
-        <h1 class="d-inline-block pt-5 mb-5"><span class="fw-bold text-secondary" style="border-bottom: solid 1px black; border-top: solid 1px black;">ALL PRODUCT</span></h1>
+        <h1 class="d-inline-block pt-5 mb-5"><span class="fw-bold text-secondary border-top border-bottom border-black d-inline-block no-border-small" >ALL PRODUCT</span></h1>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
             <div class="col">
                 <div class="card all-prodect h-100 rounded-4 overflow-hidden">
@@ -85,11 +85,11 @@
 <div class="container my-5 pt-5 bg-white">
     <div class="text-center mb-5 ">
         <h1 class="display-1 text-secondary m-0">Hale Cinnamon</h1>
-        <h1 class="fw-bold"> <span class="d-inline-block" style="border-bottom: solid 1px black; border-top: solid 1px black;">PURE CEYLON CINNAMON</span></h1>
+        <h1 class="fw-bold"> <span class="d-inline-block border-top border-bottom border-black d-inline-block no-border-small">PURE CEYLON CINNAMON</span></h1>
     </div>
 
     <div class="row align-items-center h-100 justify-content-center">
-        <div class="col-md-6">
+        <div class="col-md-6 ">
             <p class="fw-bold m-0">Cinnamon Powder - A Culinary Delight with a Touch of Wellness</p>
             <p class="">Cinnamon powder, a culinary treasure derived from the bark of the cinnamon tree, has captivated taste buds and enriched cuisines for centuries. Its captivating aroma, reminiscent of warm woods and sweet spices, instantly elevates any dish, adding a touch of sophistication and elegance. The flavor of cinnamon powder is a delightful dance of sweet, spicy, and slightly astringent notes, harmonizing perfectly with a wide range of culinary creations.</p>
             <br />
@@ -110,7 +110,7 @@
                 <img src="{{ asset('/img/background/cin4.jpg') }}" alt="Cinnamon sticks and powder" class="img-fluid">
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 ">
             <p class="fw-bold m-0">Aromatic Essence with a Touch of Magic</p>
             <p class="">Cinnamon oil, extracted from the bark of the cinnamon tree, is a captivating essence that has enchanted the world for centuries. Its warm, spicy aroma, reminiscent of sun-kissed meadows and exotic spices, instantly evokes a sense of warmth and invigoration. Beyond its captivating fragrance, cinnamon oil is a treasure trove of natural benefits, offering a touch of magic to both wellness and beauty routines.</p>
             <br />
@@ -123,7 +123,7 @@
 
 <div class="certification-section pt-5">
   <div class="container">
-    <h1 class="text-center mb-5 fw-bold text-white position-relative"><span class="d-inline-block" style="border-bottom: solid 1px white; border-top: solid 1px white;">OUR CERTIFICATION</span></h1></h1>
+    <h1 class="text-center mb-5 fw-bold text-white position-relative "><span class="border-top border-bottom border-white d-inline-block no-border-small" >OUR CERTIFICATION</span></h1></h1>
     <div class="row row-cols-1 row-cols-md-3 g-3">
       <div class="col px-2">
         <div class="card h-100 bg-transparent border-0">

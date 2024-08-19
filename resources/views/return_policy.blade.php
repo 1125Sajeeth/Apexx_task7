@@ -8,7 +8,7 @@
     <div class="container m-5 position-relative justify-content-center text-center align-items-center z-2">
         <div class="row justify-content-center">
             <div class="col-12 col-md-8 text-center justify-content-center">
-                <h2 class="display-5  text-white fw-bold mb-0 fade-in-up" style="display: inline-block; border-bottom: solid 1px rgba(255,255,255,.5); border-top: solid 1px rgba(255,255,255,.5);">
+                <h2 class="display-5  text-white fw-bold mb-0 fade-in-up border-top border-bottom border-white d-inline-block no-border-small">
                 Return policy
                 </h2>
             </div>

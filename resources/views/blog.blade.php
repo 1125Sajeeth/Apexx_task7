@@ -7,7 +7,7 @@
     <div class="container m-5 position-relative justify-content-center text-center align-items-center z-2">
         <div class="row justify-content-center">
             <div class="col-12 col-md-8 text-center justify-content-center">
-                <h2 class="display-6  text-white fw-bold mb-0 fade-in-up" style="display: inline-block; border-bottom: solid 1px rgba(255,255,255,.5); border-top: solid 1px rgba(255,255,255,.5);">
+                <h2 class="display-6  text-white fw-bold mb-0 fade-in-up border-top border-bottom border-white d-inline-block no-border-small">
                     OUR BLOG
                 </h2>
             </div>
@@ -26,7 +26,7 @@
 
     <p class="text-muted mb-3">By: Admin &nbsp; Published: 2024-06-22</p>
     <div class=" text-center">
-        <img src="{{ asset('/img/slider/slide-2.jpg') }}" class=" img-fluid rounded-4 mb-4" alt="Ceylon Cinnamon, Star Anise, and Orange" style="min-width: 70%;max-width: 75%;">
+        <img src="{{ asset('/img/slider/slide-2.jpg') }}" class=" img-fluid rounded-4 mb-4 w-75" alt="Ceylon Cinnamon, Star Anise, and Orange" >
     </div>
     <p class="mb-4 text-muted">Ceylon cinnamon, also known as "true cinnamon," is a versatile spice with a variety of culinary and medicinal uses. In this blog post, we'll explore the many ways you can incorporate Ceylon cinnamon into your life.</p>
 
@@ -53,7 +53,7 @@
 
     <p class="text-muted mb-3">By: Admin &nbsp; Published: 2024-06-18</p>
     <div class=" text-center">
-        <img src="{{ asset('/img/background/cinnamon3.jpg') }}" class=" img-fluid rounded-4 mb-4" alt="Ceylon Cinnamon, Star Anise, and Orange" style="min-width: 70%;max-width: 75%;">
+        <img src="{{ asset('/img/background/cinnamon3.jpg') }}" class=" img-fluid rounded-4 mb-4 w-75" alt="Ceylon Cinnamon, Star Anise, and Orange">
     </div>
     <p class="mb-4 text-muted">Ceylon cinnamon, also known as "true cinnamon," is a fragrant spice prized for its warm, sweet flavor. But beyond its culinary uses, Ceylon cinnamon boasts a wealth of potential health benefits. This article delves into the science behind Ceylon cinnamon and explores how it can positively impact your well-being.</p>
     <h3 class="fs-5 fw-semibold">A Rich History of Medicinal Use</h3>

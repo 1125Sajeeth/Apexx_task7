@@ -7,6 +7,12 @@
 
 }
     
+@media (max-width: 767px) {
+    .no-border-small {
+      border: none !important;
+  }
+  }
+  
 @keyframes fadeInUp {
  from {
         opacity: 0;
