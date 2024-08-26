@@ -1,15 +1,5 @@
 <header>
-    <!-- <nav>
-        <a href="{{ route('home') }}">Home</a>
-        <a href="{{ route('product') }}">Product</a>
-        <a href="{{ route('product_1') }}">Product-1</a>
-        <a href="{{ route('blog') }}">Blog</a>
-        <a href="{{ route('about') }}">About</a>
-        <a href="{{ route('privacy_policy') }}">Privacy policy</a>
-        <a href="{{ route('return_policy') }}">Return policy</a>
-        <a href="{{ route('terms') }}">Terms</a>
-        <a href="{{ route('contact') }}">Contact</a>
-        <a href="{{ route('card') }}">card <i class="fa-solid fa-cart-shopping"></i></a> -->
+   
 
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -28,13 +18,13 @@
       <div class="offcanvas-body ">
         <ul class="navbar-nav justify-content-center flex-grow-1">
           <li class="nav-item mx-4">
-            <a class="nav-link active" href="{{ route('home') }}" onclick="navigateTo('home')">Order Management</a>
+            <a class="nav-link active" href="{{ route('order') }}" onclick="navigateTo('home')">Order Management</a>
           </li>
           <li class="nav-item mx-4">
             <a class="nav-link" href="{{ route('product') }}" onclick="navigateTo('about')">Product Management</a>
           </li>
           <li class="nav-item mx-4">
-            <a class="nav-link" href="{{ route('product_1') }}" onclick="navigateTo('product')">Slider Management</a>
+            <a class="nav-link" href="{{ route('slider') }}" onclick="navigateTo('product')">Slider Management</a>
           </li>
         </ul>
       </div>

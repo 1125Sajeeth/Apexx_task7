@@ -6,8 +6,8 @@
 <h6 class="demoText__heading">product_1</h6>
 @endsection
 @section('styles')
-<link rel="stylesheet" href="{{ asset('css/product_1.css') }}">
+<link rel="stylesheet" href="{{ asset('css/slider.css') }}">
 @endsection
 @section('scripts')
-<script src="{{ asset('js/product_1.js') }}"></script>
+<script src="{{ asset('js/slider.js') }}"></script>
 @endsection
