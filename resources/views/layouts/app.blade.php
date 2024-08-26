@@ -9,7 +9,7 @@
     <title>@yield('title')</title>
     <link rel="stylesheet" href="{{ asset('bootstrap/main.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <script src="https://kit.fontawesome.com/ef4d06acb6.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c4bf1757aa.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
