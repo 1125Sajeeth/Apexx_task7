@@ -30,7 +30,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Repeat the above block for each product -->
+       
         </div>
         
         <!-- Pagination -->
