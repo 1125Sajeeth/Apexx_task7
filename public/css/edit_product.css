@@ -1,0 +1,18 @@
+.upload-area {
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+.upload-area-sm {
+    height: 100px;
+}
+
+.upload-area-lg {
+    height: 320px;
+}
+
+
+

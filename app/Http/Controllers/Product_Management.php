@@ -11,4 +11,14 @@ class Product_Management extends Controller
         return view('product');
 
     }
+    public function add_product() {
+
+        return view('addproduct');
+
+    }
+    public function edit_product() {
+
+        return view('edit_product');
+
+    }
 }
