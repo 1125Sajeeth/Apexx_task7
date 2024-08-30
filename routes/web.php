@@ -16,3 +16,4 @@ Route::get('add_categories',[Order_Management::class,'add_categories'])->name('a
 Route::get('edit_categories',[Order_Management::class,'edit_categories'])->name('edit_categories');
 
 Route::get('add_slider',[Slider_Management::class,'add_slider'])->name('add_slider');
+Route::get('edit_slider',[Slider_Management::class,'edit_slider'])->name('edit_slider');

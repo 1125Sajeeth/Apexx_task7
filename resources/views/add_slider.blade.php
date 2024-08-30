@@ -9,13 +9,13 @@
         <div class="col-md-6 col-lg-8">
             <div class="card border-0 rounded">
                 <div class="card-body">
-                    <p class="fw-normal mb-4">Slider Management > Add Categories</p>
+                    <p class="fw-normal mb-4">Slider Management > Add Slider</p>
                     <form>
                         <div class="mb-4">
                             <p class="mb-2">Upload Image</p>
                             <div class="upload-area" id="uploadArea">
                                 <span class="text-muted fs-1">+</span>
-                                <button type="button" class="close-btn">&times;</button>
+                                <button type="button" class="close-btn "><i class="fas fa-trash"></i></button>
                             </div>
                             <input type="file" id="imageUpload" class="d-none" accept="image/*">
                         </div>

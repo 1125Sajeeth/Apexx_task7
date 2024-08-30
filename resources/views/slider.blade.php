@@ -26,28 +26,28 @@
                 <td>1</td>
                 <td><img src="{{ asset('/img/test14.webp') }}" alt="" class="rounded" style="width: 102px; height: 102px; box-shadow: 4px 4px 25px 0px #00000040;"></td>
                 <td>slider button</td>
-                <td><a href="{{ route('edit_categories') }}" class="btn btn-icon btn-link"><i class="fas fa-pencil-alt"></i></a></td>
+                <td><a href="{{ route('edit_slider') }}" class="btn btn-icon btn-link"><i class="fas fa-pencil-alt"></i></a></td>
                 <td><a href="#" class="btn btn-icon btn-link" onclick="showDeleteConfirm()"><i class="fas fa-trash"></i></a></td>
             </tr>
             <tr class="align-middle">
                 <td>2</td>
                 <td><img src="{{ asset('/img/test14.webp') }}" alt="" class="rounded" style="width: 102px; height: 102px; box-shadow: 4px 4px 25px 0px #00000040;"></td>
                 <td>slider button</td>
-                <td><a href="{{ route('edit_categories') }}" class="btn btn-icon btn-link"><i class="fas fa-pencil-alt"></i></a></td>
+                <td><a href="{{ route('edit_slider') }}" class="btn btn-icon btn-link"><i class="fas fa-pencil-alt"></i></a></td>
                 <td><a href=""><a href="#" class="btn btn-icon btn-link" onclick="showDeleteConfirm()"><i class="fas fa-trash"></i></a></td>
             </tr>
             <tr class="align-middle">
                 <td>2</td>
                 <td><img src="{{ asset('/img/test14.webp') }}" alt="" class="rounded" style="width: 102px; height: 102px; box-shadow: 4px 4px 25px 0px #00000040;"></td>
                 <td>slider button</td>
-                <td><a href="{{ route('edit_categories') }}" class="btn btn-icon btn-link"><i class="fas fa-pencil-alt"></i></a></td>
+                <td><a href="{{ route('edit_slider') }}" class="btn btn-icon btn-link"><i class="fas fa-pencil-alt"></i></a></td>
                 <td><a href=""><a href="#" class="btn btn-icon btn-link" onclick="showDeleteConfirm()"><i class="fas fa-trash"></i></a></td>
             </tr>
             <tr class="align-middle">
                 <td>2</td>
                 <td><img src="{{ asset('/img/test14.webp') }}" alt="" class="rounded" style="width: 102px; height: 102px; box-shadow: 4px 4px 25px 0px #00000040;"></td>
                 <td>slider button</td>
-                <td><a href="{{ route('edit_categories') }}" class="btn btn-icon btn-link"><i class="fas fa-pencil-alt"></i></a></td>
+                <td><a href="{{ route('edit_slider') }}" class="btn btn-icon btn-link"><i class="fas fa-pencil-alt"></i></a></td>
                 <td><a href=""><a href="#" class="btn btn-icon btn-link" onclick="showDeleteConfirm()"><i class="fas fa-trash"></i></a></td>
             </tr>
         </tbody>

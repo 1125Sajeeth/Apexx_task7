@@ -16,13 +16,13 @@
                                     <p>Upload Image</p>
                                     <div class="upload-area" id="uploadArea">
                                         <span class="text-muted fs-1 ">+</span>
-                                        <button type="button" class="close-btn">&times;</button>
+                                        <button type="button" class="close-btn "><i class="fas fa-trash"></i></button>
                                     </div>
                                     <input type="file" id="imageUpload" class="d-none" accept="image/*">
                                 </div>
                                 <div class="col-md-6">
                                     <p>Category Name</p>
-                                    <input type="text" class="form-control" placeholder="Category name">
+                                    <input type="text" class="form-control " placeholder="Category name">
                                 </div>
                             </div>
                             <div class="text-end">
