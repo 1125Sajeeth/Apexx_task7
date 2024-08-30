@@ -1,5 +1,6 @@
 const products = [
     { name: "Lorem Ipsum", category: "Battery", price: "Rs 10.00", image: "/img/test1.webp" },
+    { name: "Lorem Ipsum", category: "Battery", price: "Rs 10.00", image: "/img/test5.jpg" },
     { name: "Lorem Ipsum", category: "Battery", price: "Rs 10.00", image: "/img/test1.webp" },
     { name: "Lorem Ipsum", category: "Battery", price: "Rs 10.00", image: "/img/test1.webp" },
     { name: "Lorem Ipsum", category: "Battery", price: "Rs 10.00", image: "/img/test1.webp" },
@@ -26,19 +27,8 @@ const products = [
     { name: "Lorem Ipsum", category: "Battery", price: "Rs 10.00", image: "/img/test1.webp" },
     { name: "Lorem Ipsum", category: "Battery", price: "Rs 10.00", image: "/img/test1.webp" },
     { name: "Lorem Ipsum", category: "Battery", price: "Rs 10.00", image: "/img/test1.webp" },
-    { name: "Lorem Ipsum", category: "Battery", price: "Rs 10.00", image: "/img/test1.webp" },
-    { name: "Lorem Ipsum", category: "Battery", price: "Rs 10.00", image: "/img/test1.webp" },
-    { name: "Lorem Ipsum", category: "Battery", price: "Rs 10.00", image: "/img/test1.webp" },
-    { name: "Lorem Ipsum", category: "Battery", price: "Rs 10.00", image: "/img/test1.webp" },
-    { name: "Lorem Ipsum", category: "Battery", price: "Rs 10.00", image: "/img/test1.webp" },
-    { name: "Lorem Ipsum", category: "Battery", price: "Rs 10.00", image: "/img/test1.webp" },
-    { name: "Lorem Ipsum", category: "Battery", price: "Rs 10.00", image: "/img/test1.webp" },
-    { name: "Lorem Ipsum", category: "Battery", price: "Rs 10.00", image: "/img/test1.webp" },
-    { name: "Lorem Ipsum", category: "Battery", price: "Rs 10.00", image: "/img/test1.webp" },
-
 
     
-    // Add more product objects here...
 ];
 
 const productsPerPage = 18;
@@ -56,7 +46,7 @@ function renderProducts(page) {
         const productCard = `
             <div class="col-12 col-sm-6 col-md-4 col-lg-4 position-relative mb-1">
                 <div class="product-card p-3">
-                    <img src="${product.image}" alt="${product.name}" class="product-image">
+                    <img src="${product.image}" alt="${product.name}" class="product-image rounded">
                     <div class="product-info mx-2">
                         <h5 class="m-0">${product.name}</h5>
                         <p class="m-0">${product.category}</p>
@@ -109,8 +99,12 @@ function changePage(page) {
     renderProducts(currentPage);
 }
 
-// Delete product
+// Initial render
+renderProducts(currentPage);
 
+
+
+// Delete product
 function showDeleteConfirm(productId) {
     productToDelete = productId;
     const modal = new bootstrap.Modal(document.getElementById('deleteConfirmModal'));
@@ -128,6 +122,3 @@ document.getElementById('confirmDelete').addEventListener('click', function() {
     const modal = bootstrap.Modal.getInstance(document.getElementById('deleteConfirmModal'));
     modal.hide();
 });
-
-// Initial render
-renderProducts(currentPage);

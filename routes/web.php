@@ -12,3 +12,7 @@ Route::get('product',[Product_Management::class,'index'])->name('product');
 Route::get('slider',[Slider_Management::class,'slider'])->name('slider');
 Route::get('add_product',[Product_Management::class,'add_product'])->name('add_product');
 Route::get('edit_product/{id}',[Product_Management::class,'edit_product'])->name('edit_product');
+Route::get('add_categories',[Order_Management::class,'add_categories'])->name('add_categories');
+Route::get('edit_categories',[Order_Management::class,'edit_categories'])->name('edit_categories');
+
+Route::get('add_slider',[Slider_Management::class,'add_slider'])->name('add_slider');

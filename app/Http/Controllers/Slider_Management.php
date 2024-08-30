@@ -11,4 +11,11 @@ class Slider_Management extends Controller
         return view('slider');
 
     }
+    
+    public function add_slider() {
+
+        return view('add_slider');
+
+    }
+
 }

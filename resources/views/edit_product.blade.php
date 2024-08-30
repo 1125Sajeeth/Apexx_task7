@@ -98,24 +98,32 @@
                         <button type="button" id="addInputsBtn" class="btn btn-dark w-100">+</button>
                     </div>
                     <div class="mb-3">
-                        <div class="text-center mb-2">
-                            <label class="form-label"><i class="fas fa-pencil-alt"></i><span class="m-2">Edit image</span></label>
-                        </div>
-                        <div class="row">
-                            <div class="col-9 mb-3">
-                                <div id="uploadArea1" class="upload-area upload-area-lg d-flex align-items-center justify-content-center">
-                                    <i class="fas fa-trash"></i>
-                                </div>
+                        <div class="text-center">
+                            <div class="text-center mb-2">
+                                <label class="form-label"><i class="fas fa-pencil-alt"></i><span class="m-2">Edit image</span></label>
                             </div>
-                            <div class="col-3">
-                                <div id="uploadArea2" class="upload-area upload-area-sm mb-2 d-flex align-items-center justify-content-center">
-                                    <i class="fas fa-trash"></i>
+                            <div class="d-flex justify-content-center align-items-start gap-2">
+                                <div class="upload-box position-relative d-flex justify-content-center align-items-center fs-3 bg-light big-box" id="bigBox">
+                                    +
+                                    <input type="file" accept="image/*" class="file-input" name="image">
+                                    <button type="button" class="close-btn">&times;</button>
                                 </div>
-                                <div id="uploadArea3" class="upload-area upload-area-sm mb-2 d-flex align-items-center justify-content-center">
-                                    <i class="fas fa-trash"></i>
-                                </div>
-                                <div id="uploadArea4" class="upload-area upload-area-sm d-flex align-items-center justify-content-center">
-                                    <i class="fas fa-trash"></i>
+                                <div class="d-flex flex-column justify-content-between">
+                                    <div class="upload-box position-relative d-flex justify-content-center align-items-center fs-3 bg-light mb-2 small-box" id="smallBox1">
+                                        +
+                                        <input type="file" accept="image/*" class="file-input">
+                                        <button type="button" class="close-btn">&times;</button>
+                                    </div>
+                                    <div class="upload-box position-relative d-flex justify-content-center align-items-center fs-3 bg-light mb-2 small-box" id="smallBox2">
+                                        +
+                                        <input type="file" accept="image/*" class="file-input">
+                                        <button type="button" class="close-btn">&times;</button>
+                                    </div>
+                                    <div class="upload-box position-relative d-flex justify-content-center align-items-center fs-3 bg-light small-box" id="smallBox3">
+                                        +
+                                        <input type="file" accept="image/*" class="file-input">
+                                        <button type="button" class="close-btn">&times;</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>

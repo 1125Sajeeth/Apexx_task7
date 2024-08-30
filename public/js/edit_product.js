@@ -1,19 +1,3 @@
-// document.querySelectorAll('.upload-area').forEach((area, index) => {
-//     area.addEventListener('click', () => {
-//         const input = document.createElement('input');
-//         input.type = 'file';
-//         input.accept = 'image/*';
-//         input.onchange = (e) => {
-//             const file = e.target.files[0];
-//             if (file) {
-//                 console.log(`File selected for area ${index + 1}: ${file.name}`);
-//                 // Here you can handle the file, e.g., display a preview or prepare for upload
-//             }
-//         };
-//         input.click();
-//     });
-// });
-
 
 document.addEventListener('DOMContentLoaded', function() {
     const addInputsBtn = document.getElementById('addInputsBtn');
@@ -42,3 +26,56 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+
+
+//image upload
+
+document.addEventListener('DOMContentLoaded', function() {
+    const uploadBoxes = document.querySelectorAll('.upload-box');
+
+    uploadBoxes.forEach(box => {
+        const fileInput = box.querySelector('.file-input');
+        const closeBtn = box.querySelector('.close-btn');
+
+        fileInput.addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const img = document.createElement('img');
+                    img.src = e.target.result;
+                    box.innerHTML = '';
+                    box.appendChild(img);
+                    box.appendChild(closeBtn);
+                    closeBtn.style.display = 'block';
+                }
+                reader.readAsDataURL(file);
+            }
+        });
+
+        closeBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            box.innerHTML = '+';
+            box.appendChild(fileInput);
+            box.appendChild(closeBtn);
+            closeBtn.style.display = 'none';
+            fileInput.value = '';
+        });
+    });
+});
+
+//Alert
+
+document.addEventListener('DOMContentLoaded', function() {
+  const form = document.querySelector('form');
+  const customAlertModal = new bootstrap.Modal(document.getElementById('customAlertModal'));
+
+  form.addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the form from submitting normally
+
+    // Here you would typically handle the form submission, e.g., send data to a server
+    // For this example, we'll just show the alert
+
+    customAlertModal.show();
+  });
+});

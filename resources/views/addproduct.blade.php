@@ -5,12 +5,12 @@
 {{-- demoText start --}}
 
 <div class="container mt-4">
-    <h6 class="mb-4">Product Management > Add Product</h6>
-    <div class="justify-content-center d-flex">
-        <div class="card border-0 p-5" style="width:  810px; height: 1,456px; box-shadow: 4px 4px 25px 0px #00000040;">
-            <div class="card-body">
-                <form>
-                    <div class="mb-3">
+        <h6 class="mb-4">Product Management > Add Product</h6>
+        <div class="justify-content-center d-flex">
+            <div class="card border-0 p-5" style="width: 810px; height: 1,456px; box-shadow: 4px 4px 25px 0px #00000040;">
+                <div class="card-body">
+                    <form>
+                        <div class="mb-3">
                         <label for="name" class="form-label">Name</label>
                         <input type="text" class="form-control" id="name">
                     </div>
@@ -72,38 +72,44 @@
                     <div class="mb-3">
                         <button type="button" id="addInputsBtn" class="btn btn-dark w-100">+</button>
                     </div>
-                    <div class="mb-3">
-                        <div class="text-center mb-2">
-                            <label class="form-label">Upload Image</label>
-                        </div>
-                        <div class="row">
-                            <div class="col-9 mb-3">
-                                <div id="uploadArea1" class="upload-area upload-area-lg d-flex align-items-center justify-content-center">
-                                    <span class="fs-1">+</span>
+                        <div class="mb-3">
+                            <div class="text-center">
+                                <p>Upload Image</p>
+                                <div class="d-flex justify-content-center align-items-start gap-2">
+                                    <div class="upload-box position-relative d-flex justify-content-center align-items-center fs-3 bg-light big-box" id="bigBox">
+                                        +
+                                        <input type="file" accept="image/*" class="file-input" name="image">
+                                        <button type="button" class="close-btn">&times;</button>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-between">
+                                        <div class="upload-box position-relative d-flex justify-content-center align-items-center fs-3 bg-light mb-2 small-box" id="smallBox1">
+                                            +
+                                            <input type="file" accept="image/*" class="file-input">
+                                            <button type="button" class="close-btn">&times;</button>
+                                        </div>
+                                        <div class="upload-box position-relative d-flex justify-content-center align-items-center fs-3 bg-light mb-2 small-box" id="smallBox2">
+                                            +
+                                            <input type="file" accept="image/*" class="file-input">
+                                            <button type="button" class="close-btn">&times;</button>
+                                        </div>
+                                        <div class="upload-box position-relative d-flex justify-content-center align-items-center fs-3 bg-light small-box" id="smallBox3">
+                                            +
+                                            <input type="file" accept="image/*" class="file-input">
+                                            <button type="button" class="close-btn">&times;</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-3">
-                                <div id="uploadArea2" class="upload-area upload-area-sm mb-2 d-flex align-items-center justify-content-center">
-                                    <span class="fs-4">+</span>
-                                </div>
-                                <div id="uploadArea3" class="upload-area upload-area-sm mb-2 d-flex align-items-center justify-content-center">
-                                    <span class="fs-4">+</span>
-                                </div>
-                                <div id="uploadArea4" class="upload-area upload-area-sm d-flex align-items-center justify-content-center">
-                                    <span class="fs-4">+</span>
-                                </div>
-                            </div>
                         </div>
-                    </div>
 
-                    <div class="d-flex justify-content-center">
-                        <button type="submit" class="btn btn-dark">Save</button>
-                    </div>
-                </form>
+                        <div class="d-flex justify-content-center">
+                            <button type="submit" class="btn btn-dark">Save</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
 <div class="modal fade" id="customAlertModal" tabindex="-1" aria-labelledby="customAlertModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" style="max-width: 300px;">
@@ -120,7 +126,9 @@
             </div>
         </div>
     </div>
-</div>
+</div> 
+
+    
 
 
 {{-- demoText end --}}
