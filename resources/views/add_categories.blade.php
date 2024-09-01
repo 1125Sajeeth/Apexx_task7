@@ -16,7 +16,7 @@
                                 <p>Upload Image</p>
                                 <div class="upload-area" id="uploadArea">
                                     <span class="text-muted fs-1 ">+</span>
-                                    <button type="button" class="close-btn "><i class="fas fa-trash"></i></button>
+                                    <button type="button" class="close-btn "><i class="fa-regular fa-trash-can"></i></button>
                                 </div>
                                 <input type="file" id="imageUpload" class="d-none" accept="image/*">
                             </div>

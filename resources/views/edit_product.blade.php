@@ -106,23 +106,23 @@
                                 <div class="upload-box position-relative d-flex justify-content-center align-items-center fs-3 bg-light big-box" id="bigBox">
                                     +
                                     <input type="file" accept="image/*" class="file-input" name="image">
-                                    <button type="button" class="close-btn">&times;</button>
+                                    <button type="button" class="close-btn"><i class="fa-regular fa-trash-can"></i></button>
                                 </div>
                                 <div class="d-flex flex-column justify-content-between">
                                     <div class="upload-box position-relative d-flex justify-content-center align-items-center fs-3 bg-light mb-2 small-box" id="smallBox1">
                                         +
                                         <input type="file" accept="image/*" class="file-input">
-                                        <button type="button" class="close-btn">&times;</button>
+                                        <button type="button" class="close-btn btn-small"><i class="fa-regular fa-trash-can"></i></button>
                                     </div>
                                     <div class="upload-box position-relative d-flex justify-content-center align-items-center fs-3 bg-light mb-2 small-box" id="smallBox2">
                                         +
                                         <input type="file" accept="image/*" class="file-input">
-                                        <button type="button" class="close-btn">&times;</button>
+                                        <button type="button" class="close-btn btn-small"><i class="fa-regular fa-trash-can"></i></button>
                                     </div>
                                     <div class="upload-box position-relative d-flex justify-content-center align-items-center fs-3 bg-light small-box" id="smallBox3">
                                         +
                                         <input type="file" accept="image/*" class="file-input">
-                                        <button type="button" class="close-btn">&times;</button>
+                                        <button type="button" class="close-btn btn-small"><i class="fa-regular fa-trash-can"></i></button>
                                     </div>
                                 </div>
                             </div>

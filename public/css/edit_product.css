@@ -51,18 +51,24 @@
 }
 .close-btn {
     position: absolute;
-    top: 5px;
-    right: 5px;
-    background-color: white;
+    background-color: transparent;
     color: black;
+    transform: translate(-50%, -50%);
     border: none;
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 60px;
     line-height: 1;
     cursor: pointer;
     display: none;
    
 }
 
+.btn-small{
+    height: 15px;
+    width: 15px;
+    font-size: 30px;
+    
+
+}
