@@ -18,7 +18,7 @@
       <div class="offcanvas-body ">
         <ul class="navbar-nav justify-content-center flex-grow-1">
           <li class="nav-item mx-4">
-            <a class="nav-link" href="{{ route('order') }}" onclick="navigateTo('home')">Order Management</a>
+            <a class="nav-link" href="#" onclick="navigateTo('home')">Order Management</a>
           </li>
           <li class="nav-item mx-4">
             <a class="nav-link" href="{{ route('product') }}" onclick="navigateTo('about')">Product Management</a>

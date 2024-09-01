@@ -10,11 +10,5 @@ class Order_Management extends Controller
         return view('order');
     }
 
-    public function add_categories() {
-        return view('add_categories');
-    }
     
-    public function edit_categories() {
-        return view('edit_categories');
-    }
 }

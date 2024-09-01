@@ -10,7 +10,9 @@
     <div class="d-flex flex-column align-items-end mb-5">
         <a href="{{ route('add_product') }}" class="btn btn-dark mb-2" style="width: 234px; height: 40px;">
             <i class="fas fa-plus me-2"></i>ADD NEW PRODUCT</a>
-        <button class="btn btn-outline-dark" style="width: 234px; height: 40px;">Category Management</button>
+        <!-- <button class="btn btn-outline-dark" style="width: 234px; height: 40px;">Category Management</button> -->
+        <a href="{{ route('categories') }}" class="btn btn-outline-dark" style="width: 234px; height: 40px;">
+            Category Management</a>
     </div>
 
     <div class="row gx-5" id="productContainer">

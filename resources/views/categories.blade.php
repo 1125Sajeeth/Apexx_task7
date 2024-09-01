@@ -2,7 +2,7 @@
 @section('title','')
 @section('main-content')
 
-<!-- <div class="d-flex flex-column container">
+<div class="d-flex flex-column container">
     <p>Slider Management</p>
     <div class="d-flex justify-content-end align-items-end mb-4">
         <a href="{{ route('add_categories') }}" class="btn btn-dark">
@@ -72,12 +72,12 @@
             </div>
         </div>
     </div>
-</div> -->
+</div>
 
 @endsection
 @section('styles')
-<link rel="stylesheet" href="{{ asset('css/order.css') }}">
+<link rel="stylesheet" href="{{ asset('css/categories.css') }}">
 @endsection
 @section('scripts')
-<script src="{{ asset('js/order.js') }}"></script>
+<script src="{{ asset('js/categories.js') }}"></script>
 @endsection
